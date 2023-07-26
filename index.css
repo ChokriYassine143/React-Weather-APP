@@ -1,0 +1,347 @@
+    .app {
+        display: flex;
+        gap: 20px;
+        background-color: #100e1d;
+    
+        margin-top: 0;
+    }
+    
+    .day {
+        position: relative;
+        top: 50px;
+        width: 115px;
+        height: 177px;
+        flex-shrink: 0;
+        background-color: #1e213a;
+    }
+    
+    .heading {
+        color: #e7e7eb;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .temperatue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .temphigh {
+        color: #e7e7eb;
+        margin-right: 20px;
+    }
+    
+    .days {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        background-color: #100e1d;
+        padding: 20px;
+    }
+    
+    .day-img {
+        width: 56.439px;
+        height: 62px;
+        margin-left: 27px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+    
+    .templow {
+        color: #a09fb1;
+    }
+    
+    .todayweather {
+        width: 375px;
+        height: 810px;
+        flex-shrink: 0;
+        background-color: #1e213a;
+        
+        margin-right: 100px;
+        
+    }
+    .location-icon {
+        position: relative;
+        top: 25px;
+        left: 170px;
+        width: 40px; 
+        height: 40px; 
+    color: grey;
+        cursor: pointer;
+        filter: invert(50%) sepia(100%) saturate(10000%) hue-rotate(180deg);
+      
+      
+    }
+    .icon{width:37.697px;
+        height: 27.697px;
+    position: relative;
+bottom: 40px;}
+    button {
+        width: 125px;
+        height: 40px;
+        background-color: #e7e7eb;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: relative;
+        left: 50px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #d1d1d6;
+    
+    }
+    
+    .imgtoday
+    {position: relative;
+    top: 70px;
+    left:75px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 45px;
+    }
+    .degtoday{
+        
+        position: relative;
+        left:45px;
+        color: #E7E7EB;
+    font-family: Raleway;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .valuedegtod{
+        margin-bottom: 0;
+        display: flex;
+        gap: 56px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .deg{
+        color: #A09FB1;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .weathertype{
+            color: #A09FB1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+    }
+    .todayvalue{text-align: center;
+        color: #88869D;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    body {
+        background-color: #100e1d;
+    }
+    
+    
+ .Detail-box{
+     text-align: center;
+     width: 328px;
+     height: 180px;
+     flex-shrink: 0;
+background-color: #1E213A;
+text-align: center;
+
+
+    }
+  .heading-detail{
+ 
+    color: #c7c7ca;
+text-align: center;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+  }
+  .value-detail{
+    color: #E7E7EB;
+text-align: center;
+font-family: Raleway;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+bottom:25px
+  }
+  .search-container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
+    background-color: #1e213a;
+    padding: 10px;
+    border-radius: 5px;
+    width: 375px;
+    height: 810px;
+  }
+  
+  #searchInput {
+    flex: 1;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #1e213a;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+  #searchButton {
+    position: relative;
+    left:50px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start; 
+  }
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .grid-container {
+    position: absolute;
+    top: 275px;
+    right: 186px;
+    background-color: #100e1d;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .hum{width: 229px;
+    height: 8px;
+    position: relative;
+    bottom:55px
+}
+.Detail-box2{
+    text-align: center;
+    width: 328px;
+    height: 140px;
+    flex-shrink: 0;
+background-color: #1E213A;
+text-align: center;
+
+
+   }
+   .temperature-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px; /* Adjust the width as needed */
+    height: 35px;
+    border-radius: 50%;
+    background-color: #100e1d;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 300px;
+  }
+  
+  .temperature-unit-circle { cursor: pointer;
+    width: 35px; /* Set the width and height to create a circle */
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585676;
+    margin-right: 5px; /* Adjust the spacing between the circles */
+  }
+  
+  .temperature-unit {
+    font-size: 18px;
+    margin: 0; /* Remove any default margin */
+  }
+  .exit-icon{position: absolute;
+    top:20px;
+    left:350px;
+    background-color:#1e213a ;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+  }
+  .search-div{position: relative;
+   
+    top:55px;
+  }
+  .location-city{
+    color: #88869D;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+top: 30px;
+left:175px;
+  }
+  .city-icon{
+   position: relative;
+   bottom:12px;
+   left:145px;
+  }
+  .Footer{
+    width: 300px;;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left:700px;
+    background-color: #100e1d;
+  }
+  .footer-by{
+    color: #A09FB1;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+  }
